@@ -1,6 +1,6 @@
 import "./home.css"
 
-const Home = {} => {
+const Home = () => {
     return <div>Home</div>;
 };
 

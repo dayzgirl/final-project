@@ -1,6 +1,6 @@
 import "./posts.css"
 
-const Posts = {} => {
+const Posts = () => {
     return <div>Posts</div>;
 };
 

@@ -1,0 +1,68 @@
+/* Spring Themed Navbar CSS */
+
+/* General Styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e0f7f0; /* Light teal pastel */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Navbar Links */
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover and Active States */
+nav a:hover {
+    background-color: #bde7d9; /* Soft teal */
+    color: #000; /* Dark black */
+}
+
+/* Navbar Logo */
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+}
+
+/* Responsive Navbar Styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        padding: 10px 20px;
+
+    }
+}

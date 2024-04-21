@@ -1,6 +1,6 @@
-import "./contact.css"
+import "./contact.css";
 
-const Contact = {} => {
+const Contact = () => {
     return <div>Contact</div>;
 };
 

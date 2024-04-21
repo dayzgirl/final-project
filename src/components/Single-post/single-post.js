@@ -1,7 +1,7 @@
 import "./single-post.css"
 
-const Single-Post = {} => {
+const SinglePost = () => {
     return <div>Single Post</div>;
 };
 
-export default Single-Post;
+export default SinglePost;

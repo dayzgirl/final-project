@@ -1,6 +1,9 @@
 import "./navbar.css"
+import CreatePostModal from "../Modals/createpostmodal";
 
-const navbar = {} => {
+import { Link } from "react-router-dom";
+
+const navbar = () => {
     return (
         <nav>
             {" "}
@@ -12,11 +15,11 @@ const navbar = {} => {
                     <Link to="/posts">Posts</Link>
                 </li>
                 <li>
-                    <Link to="/contact"></Link>
+                    <Link to="/contact">Contact</Link>
                 </li>
-                <li>{/*.<CreatePostModal./> */</li>
+                <li><CreatePostModal/></li>
             </ul>
-        </nav>;
+        </nav>
     );
 };
 

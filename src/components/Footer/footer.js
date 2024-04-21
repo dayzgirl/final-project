@@ -1,6 +1,6 @@
-import "./contact.css"
+import "./footer.css"
 
-const Footer = {} => {
+const Footer = () => {
     return <div>Footer</div>;
 };
 
